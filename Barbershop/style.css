@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+  }
+
+  .container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hsl(210, 36%, 96%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1c78f7;
+    color: #fff;
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="date"],
+  input[type="time"],
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+  }
+ 
+  button[type="submit"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2196f3;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.3s linear;;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+  
+  button[type="submit"]:hover {
+    color: #49a6e9;
+    background: hsl(205, 86%, 17%);
+    border-color: hsl(205, 86%, 17%);
+  }
+
+.apps {
+  margin-top: 15%;
+}
+
+.appointments {
+  text-align: center;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f6dd00;
+  color: black;
+}
+.appointments-list {
+  padding: 0 5%;
+  list-style: decimal;
+}
+
+
+/*MEDIA QUERIES*/
+
+/* For screens wider than 939px */
+@media screen and (min-width: 940px) {
+  .container {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  form label,
+  form input {
+    flex-basis: 48%;
+  }
+
+  form button {
+    flex-basis: 100%;
+  }
+}
+
+/* For screens between 768px and 939px */
+@media screen and (min-width: 768px) and (max-width: 939px) {
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  form label,
+  form input {
+    flex-basis: 48%;
+  }
+
+  form button {
+    flex-basis: 100%;
+  }
+}
+
+/* For screens between 450px and 767px */
+@media screen and (min-width: 450px) and (max-width: 767px) {
+  .container {
+    padding: 20px;
+  }
+
+  form label,
+  form input,
+  form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* For screens narrower than 450px */
+@media screen and (max-width: 449px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  form label,
+  form input,
+  form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
