@@ -18,5 +18,5 @@ This is a JavaScript application designed to make appointments in a barbershop. 
 <p align="center">
 <b>An application from which you can make appointments for a Barbershop and see how many appointments are there:</b>
 <hr>
-<img src="https://www.linkpicture.com/q/appointment1.jpg" height="100%" width="100%" alt="Home"/>
+<img src="https://www.linkpicture.com/q/appointment1.jpg" height="80%" width="80%" alt="Home"/>
 <hr>
