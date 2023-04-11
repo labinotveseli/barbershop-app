@@ -12,7 +12,7 @@ This is a JavaScript application designed to make appointments in a barbershop. 
 <h2>Website walk-through:</h2>
 
 <b>You can try the Demo of this website here:</b> 
-  - [Barbershop Appointments App](https://honeyshopwebsite.netlify.app)
+  - [Barbershop Appointments App](https://barbershop-app.netlify.app/)
 
 <hr>
 <p align="center">
